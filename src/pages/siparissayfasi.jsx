@@ -3,11 +3,11 @@ import "../style.css";
 
 const malzemelerListesi = [
   "Pepperoni", "Sosis", "Kanada Jambonu", "Tavuk Izgara", "Soğan",
-  "Domates", "Mısır", "Sucuk", "Jalepeno", "Sarımsak",
+  "Domates", "Misir", "Sucuk", "Jalepeno", "Sarimsak",
   "Biber", "Ananas", "Kabak"
 ];
 
-function SiparisPage() {
+function SiparisSayfasi() {
   const [boyut, setBoyut] = useState("");
   const [hamur, setHamur] = useState("");
   const [ekMalzemeler, setEkMalzemeler] = useState([]);
